@@ -73,3 +73,9 @@
     gap: 8px;
     margin-bottom: 20px;
 }
+
+.register-btn{
+    text-decoration: none;
+    list-style-type: none;
+    color: #F5F7FA;
+}
