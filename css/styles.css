@@ -113,10 +113,6 @@ body{
     
 }
 
-#app-section-left{
-
-}
-
 #app-section-left > img{
     width: 442px;
     height: 328.99px;
@@ -154,4 +150,256 @@ body{
     border: none;
     border-radius: 4px;
     gap: 10px;
+}
+
+/*Local Business Section*/
+
+#local-business{
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 288px;
+
+}
+
+#local-business-left{
+    width: 540px;
+    height: 120px;
+}
+
+#local-business-left > h2{
+    text-align: left;
+    height: 88px;
+    width: 408px;
+    gap: 8px;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#local-business-left > h2 > span{
+    color: #4CAF4F;
+    font-weight: 600;
+}
+
+#local-business-left > p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #18191F;
+}
+
+#local-business-right{
+    width: 540px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.right-top-business{
+    margin-bottom: 40px;
+}
+
+.right-top-business, .right-bottom-business{
+    width: 540px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grp{
+    width: 255px;
+    height: 60px;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#u-grp{
+    margin-left: 15px;
+    padding-right: 85px;
+}
+
+#count{
+    display: flex;
+    flex-direction: column ;
+}
+
+.count{
+    color: #4D4D4D;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.count-description{
+    color: #717171;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*Customer Section*/
+
+#customer-section{
+    background-color: #F5F7FA;
+    height: 390px;
+    gap: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tesla-image{
+    width: 326px;
+    height: 326px;
+    border-radius: 8px;
+}
+
+#customer-right{
+    width: 748px;
+    height: 324px;
+    gap: 32px;
+}
+
+#customer-text-section{
+    text-align: left;
+    width: 748px;
+    height: 244px;
+    gap: 32px;
+    margin-bottom: 10px;
+}
+
+.customer-description{
+    margin-bottom: 16px;
+    color: #717171;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.name{
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #4CAF4F;
+}
+
+.customer-description2{
+    margin-bottom: 16px;
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#customer-logo-section{
+    width: 748px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#customer-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4CAF4F;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#right-arrow{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+/*Marketing Section*/
+
+#marketing{
+    display: flex;
+    justify-content: center;
+    height: 508px;
+    gap: 16px;
+}
+
+#marketing-text{
+    text-align: center;
+    width: 1110px;
+    height: 124px;
+    gap: 8px;
+}
+
+#marketing-title{
+    font-size: 38px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+#marketing-description{
+    text-align: center;
+    width: 628px;
+    height: 72px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    margin-top: 20px;
+}
+
+#description-marketing{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1110px;
+    height: 124px;
+}
+
+/*Demo Section*/
+
+#demo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F7FA;
+    height: 300px;
+}
+
+#demo-title{
+    height: 152px;
+    width: 887px;
+    font-weight: 600;
+    font-size: 64px;
+    color: #263238;
+    margin-bottom: 32px;
+}
+
+#demo-button{
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    width: 178px;
+    height: 52px;
+    gap: 8px;
+    color: #F5F7FA;
+    background-color: #4CAF4F;
+}
+
+#demo-link{
+    color: #F5F7FA;
+}
+
+#arrow{
+    width: 16px;
+    height: 16px;
+    background-color: #F5F7FA;
 }
