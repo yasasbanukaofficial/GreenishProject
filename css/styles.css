@@ -362,6 +362,121 @@ body{
     height: 124px;
 }
 
+
+
+/*Addtional Part*/
+    .community-updates
+    {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 30px;
+    }
+
+    .update-details {
+        display: flex;
+    width: 69.375rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    }
+
+    .update-header {
+        color: #4D4D4D;
+    text-align: center;
+
+
+    font-family: "Inter";
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.75rem; 
+    }
+
+    .update-text {
+        color: #717171;
+    text-align: center;
+
+
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; 
+    width: 39.25rem;
+    }
+
+    .update-frame {
+        display: flex;
+    padding: 0rem 9rem;
+    justify-content: space-between;
+    align-items: center;
+    gap:2.5rem;
+    flex-wrap: wrap;
+    }
+
+    .frame-box {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -6rem;
+    }
+
+    .box-content {
+        padding: 10px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background: #F5F7FA;
+    z-index:2;
+    transform: translate(0rem,-6.8rem);
+    box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.40);
+    }
+
+    .box-content-text {
+        color: #717171;
+    text-align: center;
+
+
+    font-family: "Inter";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem; 
+    width: 17.8125rem;
+    }
+
+    .readmore-update {
+        display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+    }
+
+    .readmore-button {
+        color: #4CAF4F;
+    font-family: "Inter";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem; 
+    }
+
+    .readmore-arrow {
+        display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.5rem 0.3125rem 0.5rem 0.27588rem;
+    justify-content: center;
+    align-items: center;
+    }
+/**/
+
 /*Demo Section*/
 
 #demo{
@@ -403,3 +518,122 @@ body{
     height: 16px;
     background-color: #F5F7FA;
 }
+
+/*Footer Section*/
+
+footer{
+    background-color: #263238;
+    height: 328px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#left-footer{
+    text-align: left;
+    width: 350px;
+    height: 189.67px;
+}
+
+#left-footer img{
+    width: 191px;
+    height: 29.67px;
+    margin-bottom: 40px;
+}
+
+#left-footer p{
+    width: 350px;
+    height: 48px;
+    color: #F5F7FA;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    opacity: 80%;
+}
+
+#social-media{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 176px;
+    height: 32px;
+}
+
+.social-media-logos{
+    width: 32px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+#footer-details1, #footer-details2{
+    width: 160px;
+    height: 200px;
+    text-align: left;
+}
+
+#right-footer{
+    display: flex;
+}
+
+.footer-h1{
+    width: 160px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+#right-footer li{
+    list-style-type: none;
+    color: #F5F7FA;
+    opacity: 80%;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+#footer-details3{
+    width: 290px;
+    height: 92px;
+    padding-bottom: 24px;
+}
+
+.input{
+    width: 255px;
+    height: 40px;
+    border-radius: 8px;
+    opacity: 20%;
+    background-color: #FFFFFF;
+}
+
+input[type="email"]{
+    border: none;
+    border-radius: 8px;
+    width: 265px;
+    text-align: center;
+    height: 40px;
+    margin-left: 0px;
+    color: #FFFFFF;
+}
+
+
+#send-button{
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    
+    
+}
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+.send{
+    margin-left: 15px;
+}
+
