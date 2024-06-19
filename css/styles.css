@@ -5,6 +5,7 @@ body{
     margin: 0;
 }
 
+
 #clients{
     display: flex;
     flex-direction: column;
@@ -86,12 +87,13 @@ body{
 }
 
 #community-cards{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 299px 299px 1fr;
+    gap: 127px;
     width: 1440px;
     height: 280px;
     margin-top: 40px;
+    margin-left: 299px;
     padding: 0px, 144px, 0px, 144px;
 
 }

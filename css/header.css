@@ -7,6 +7,44 @@
     font-weight: 500;
 }
 
+.btn-btn-small-green{
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    width: 91px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 10px, 20px, 10px, 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-btn-medium-green{
+    text-decoration: none;
+    list-style-type: none;
+    color: #F5F7FA;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    width: 91px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 10px, 20px, 10px, 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-btn-normal-green{
+    text-decoration: none;
+    list-style-type: none;
+    color: #F5F7FA;
+    background-color: #4CAF4F;
+    width: 151px;
+    height: 52px;
+    border-radius: 6px;
+    padding: 10px, 20px, 10px, 20px;
+    border: none;
+    cursor: pointer;
+}
+
 #header{
     background-color: #F5F7FA;
     display: flex;
